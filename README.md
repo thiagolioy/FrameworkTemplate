@@ -6,10 +6,10 @@ A template for new Framework project.
 
 ## What's in the template?
 
-- Deployment Targets - iOS 8.0 / Mac OS X 10.10 / tvOS 9.0 / watchOS 2.0
+- Deployment Targets - iOS 8.0
 - Xcode 8.0
 - Swift 3.0
-- Dependency Managers - Cocoapods / Carthage / Swift Package Manager
+- Dependency Managers - Cocoapods / Carthage 
 - TravisCI
 - Readme
 - MIT LICENSE

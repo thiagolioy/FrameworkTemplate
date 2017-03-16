@@ -1,11 +1,11 @@
 {
     "name" : "Framework",
     "summary" : "cookiecutter bootstrap template for swift framework",
-    "bundle_identifier" : "me.rahulkatariya",
-    "full_name": "Rahul Katariya",
-    "email": "rahulkatariya@me.com",
-    "organization_name" : "cookiecutter-swift",
-    "homepage" : "http://rahulkatariya.me",
+    "bundle_identifier" : "me.tplioy",
+    "full_name": "Thiago Lioy",
+    "email": "thiagolioy@me.com",
+    "organization_name" : "thiagolioy",
+    "homepage" : "https://github.com/thiagolioy",
     "version": "0.0.1",
-    "twitter": "rahulkatariya91"
+    "twitter": "tplioy"
 }

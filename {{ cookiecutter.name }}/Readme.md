@@ -3,12 +3,11 @@
 [![Platforms](https://img.shields.io/cocoapods/p/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 [![License](https://img.shields.io/cocoapods/l/{{ cookiecutter.name }}.svg)](https://raw.githubusercontent.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/master/LICENSE)
 
-[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/{{ cookiecutter.name }}.svg)](https://cocoapods.org/pods/{{ cookiecutter.name }})
 
 [![Travis](https://img.shields.io/travis/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/master.svg)](https://travis-ci.org/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}/branches)
-[![Cookiecutter-Swift](https://img.shields.io/badge/cookiecutter--swift-framework-red.svg)](http://github.com/cookiecutter-swift/Framework)
+[![Cookiecutter-Swift](https://img.shields.io/badge/cookiecutter--swift-framework-red.svg)](http://github.com/thiagolioy/FrameworkTemplate)
 
 {{ cookiecutter.summary }}
 
@@ -19,7 +18,7 @@
 
 ## Requirements
 
-- iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 8.0+
 - Xcode 8.0+
 
 ## Installation
@@ -65,20 +64,6 @@ To integrate {{ cookiecutter.name }} into your Xcode project using Carthage, spe
 
 ```ogdl
 github "{{ cookiecutter.name }}/{{ cookiecutter.name }}" ~> {{ cookiecutter.version }}
-```
-### Swift Package Manager
-
-To use {{ cookiecutter.name }} as a [Swift Package Manager](https://swift.org/package-manager/) package just add the following in your Package.swift file.
-
-``` swift
-import PackageDescription
-
-let package = Package(
-    name: "Hello{{ cookiecutter.name }}",
-    dependencies: [
-        .Package(url: "https://github.com/{{ cookiecutter.organization_name }}/{{ cookiecutter.name }}.git", "{{ cookiecutter.version }}")
-    ]
-)
 ```
 
 ### Manually
